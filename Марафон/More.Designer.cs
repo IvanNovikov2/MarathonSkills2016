@@ -148,8 +148,8 @@
             // 
             this.time.AutoSize = true;
             this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.time.ForeColor = System.Drawing.Color.White;
-            this.time.Location = new System.Drawing.Point(144, 397);
+            this.time.ForeColor = System.Drawing.Color.Black;
+            this.time.Location = new System.Drawing.Point(148, 385);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(242, 13);
             this.time.TabIndex = 9;
@@ -187,7 +187,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(570, 432);
+            this.ClientSize = new System.Drawing.Size(554, 412);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.time);
             this.Controls.Add(this.label2);
