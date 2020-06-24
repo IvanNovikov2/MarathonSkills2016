@@ -38,9 +38,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(210, 42);
+            this.label1.Location = new System.Drawing.Point(233, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 17);
+            this.label1.Size = new System.Drawing.Size(112, 15);
             this.label1.TabIndex = 7;
             this.label1.Text = "Наименование спонсора";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -59,11 +59,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(146, 256);
+            this.textBox1.Location = new System.Drawing.Point(114, 225);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(332, 177);
+            this.textBox1.Size = new System.Drawing.Size(332, 91);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "\"Arise\" поддерживает женщин и детей, которые пережили насилие в семье, что позвол" +
     "яет им вернуться к нормальной жизни.\r\n";
@@ -80,9 +80,9 @@
             // 
             // Fond
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 450);
+            this.ClientSize = new System.Drawing.Size(571, 377);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);

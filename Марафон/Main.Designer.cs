@@ -127,7 +127,7 @@
             this.time.AutoSize = true;
             this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.time.ForeColor = System.Drawing.Color.White;
-            this.time.Location = new System.Drawing.Point(145, 311);
+            this.time.Location = new System.Drawing.Point(148, 297);
             this.time.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(242, 13);

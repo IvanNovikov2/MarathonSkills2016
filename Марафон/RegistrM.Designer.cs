@@ -64,7 +64,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.button1.Location = new System.Drawing.Point(69, 14);
+            this.button1.Location = new System.Drawing.Point(25, 14);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 28);
@@ -77,7 +77,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.button2.Location = new System.Drawing.Point(570, 14);
+            this.button2.Location = new System.Drawing.Point(603, 14);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(89, 28);
@@ -90,7 +90,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.button3.Location = new System.Drawing.Point(53, 402);
+            this.button3.Location = new System.Drawing.Point(60, 401);
             this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(124, 23);
@@ -103,7 +103,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.button4.Location = new System.Drawing.Point(248, 402);
+            this.button4.Location = new System.Drawing.Point(259, 401);
             this.button4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(89, 23);
@@ -141,7 +141,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.label3.Location = new System.Drawing.Point(66, 79);
+            this.label3.Location = new System.Drawing.Point(46, 76);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(604, 48);
             this.label3.TabIndex = 6;
@@ -241,7 +241,7 @@
             // 
             this.time.AutoSize = true;
             this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.time.ForeColor = System.Drawing.Color.White;
+            this.time.ForeColor = System.Drawing.Color.Black;
             this.time.Location = new System.Drawing.Point(187, 439);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(307, 16);

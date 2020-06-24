@@ -51,5 +51,15 @@ namespace Марафон
             Runner.Show();
             this.Hide();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void time_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -41,7 +41,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 64);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 34);
             this.button1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(223, 163);
+            this.button2.Location = new System.Drawing.Point(201, 96);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(173, 56);
             this.button2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(223, 244);
+            this.button3.Location = new System.Drawing.Point(201, 168);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(173, 56);
             this.button3.TabIndex = 2;
@@ -72,10 +72,11 @@
             // time
             // 
             this.time.AutoSize = true;
-            this.time.ForeColor = System.Drawing.Color.White;
-            this.time.Location = new System.Drawing.Point(201, 386);
+            this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.time.ForeColor = System.Drawing.Color.Black;
+            this.time.Location = new System.Drawing.Point(167, 267);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(320, 16);
+            this.time.Size = new System.Drawing.Size(242, 13);
             this.time.TabIndex = 3;
             this.time.Text = "0 дней 0 часов и 0 минут до старта марафона!";
             this.time.Click += new System.EventHandler(this.label1_Click);
@@ -85,18 +86,18 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(252, 64);
+            this.label2.Location = new System.Drawing.Point(230, 19);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(177, 22);
+            this.label2.Size = new System.Drawing.Size(144, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "MARATHON SKILLS 2020";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(-7, 115);
+            this.pictureBox1.Location = new System.Drawing.Point(-6, 62);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(710, 242);
+            this.pictureBox1.Size = new System.Drawing.Size(588, 202);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -108,10 +109,10 @@
             // 
             // CheckRunner
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(700, 450);
+            this.ClientSize = new System.Drawing.Size(575, 296);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.time);
             this.Controls.Add(this.button3);
@@ -121,6 +122,7 @@
             this.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "CheckRunner";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marathon Skills 2020 - Register as a runner";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

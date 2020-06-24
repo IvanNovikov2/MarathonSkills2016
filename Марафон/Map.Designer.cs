@@ -89,7 +89,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(183, 12);
+            this.label1.Location = new System.Drawing.Point(240, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(354, 18);
             this.label1.TabIndex = 2;
@@ -98,10 +98,11 @@
             // time
             // 
             this.time.AutoSize = true;
-            this.time.ForeColor = System.Drawing.Color.White;
-            this.time.Location = new System.Drawing.Point(234, 494);
+            this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.time.ForeColor = System.Drawing.Color.Black;
+            this.time.Location = new System.Drawing.Point(277, 494);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(320, 16);
+            this.time.Size = new System.Drawing.Size(307, 16);
             this.time.TabIndex = 3;
             this.time.Text = "0 дней 0 часов и 0 минут до старта марафона!";
             // 
@@ -388,7 +389,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(-6, 44);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(905, 447);
+            this.pictureBox1.Size = new System.Drawing.Size(879, 447);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -398,7 +399,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(900, 520);
+            this.ClientSize = new System.Drawing.Size(870, 516);
             this.Controls.Add(this.fullrace);
             this.Controls.Add(this.funrace);
             this.Controls.Add(this.halfrace);
